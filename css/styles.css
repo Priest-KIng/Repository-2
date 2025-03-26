@@ -1,0 +1,43 @@
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+body{
+    font-size : 2rem;
+    font-family: monospace , sans-serif;
+    box-sizing: border-box;
+}
+ nav{
+    margin : 2rem;
+    text-align: center;
+    padding: 0rem;
+    border: 1px solid black;
+    border-radius : 2rem;
+} 
+
+h2{
+    background-color: black;
+    color: white;
+    border-radius : 2rem 2rem 0 0 ;
+}
+
+ul{
+    list-style-type: none;
+}  
+
+li a{
+    display : block;
+    border-top : 1px solid black;
+    text-decoration : none;
+}
+
+li a:hover{
+    background-color: yellow;
+    color : red;
+}
+
+li:nth-last-child(1) a{
+    border-radius: 0 0 2rem 2rem;
+}
